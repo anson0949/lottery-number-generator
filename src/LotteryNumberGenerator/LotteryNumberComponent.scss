@@ -1,0 +1,29 @@
+.lottery-numbers {
+    display: flex;
+    padding: 20px 10px 5px 20px;
+}
+
+.number {
+    border-radius: 50%;
+    width: 17px;
+    height: 17x;
+    padding: 10px;
+    color: #000;
+    text-align: center;
+
+    &-grey {
+        background-color: grey;
+    }
+    &-blue {
+        background-color: blue;
+    }
+    &-pink {
+        background-color: pink;
+    }
+    &-green {
+        background-color: green;
+    }
+    &-yellow {
+        background-color: yellow;
+    }
+}
